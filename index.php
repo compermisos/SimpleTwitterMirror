@@ -5,7 +5,7 @@ $cache = new JG_Cache('./cache/');
 if(isset($_GET['user'])){
 	$user = $_GET['user'];
 }else{
-	$user = "G20Mexico";
+	$user = "JesusCCruz";
 }
 $data = $cache->get($user, 300);  
   
