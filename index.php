@@ -28,7 +28,7 @@ $data = $cache->get($user, $CacheTime);
   
 if ($data === FALSE)  
 {  
-	$url = $TwitterBaseUR . $user . $TwitterCloseURL;
+	$url = $TwitterBaseURL . $user . $TwitterCloseURL;
 	$data = file_get_contents($url);
 	$cache->set($user, $data);  
 }  
