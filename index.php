@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 #######################################################################
 #                         config zone                                 #
@@ -7,10 +7,11 @@ $CacheDir = './cache/';
 $CacheTime = 300;
 $DefaultUser = "JesusCCruz";
 
-$TwitterBaseURL = "https://twitter.com/statuses/user_timeline/";
+$TwitterBaseURL = "https://api.twitter.com/1/statuses/user_timeline.xml?screen_name=";
 /*yes you can make a chain of proxys =P */
-$TwitterCloseURL = ".xml?count=10";
-
+#$TwitterCloseURL = ".xml?count=10";
+$TwitterCloseURL = "";
+/*in the new api change the close url cant is used*/
 
 
 #######################################################################
